@@ -1,0 +1,16 @@
+h1{
+font-size: 3rem; /* Tamaño de fuente */
+  font-weight: bold; /* Grosor de la fuente */
+  text-align: center; /* Alineación centrada */
+}
+/* Agregamos la animación */
+h1{
+  animation-duration: 2s; /* Duración de la animación */
+ ; /* Nombre de la animación */
+  animation-iteration-count: infinite; /* Número de veces que se repite la animación (infinito) */
+}
+/* Creamos la animación con @keyframes*/
+@keyframes slide {
+  from { transform: translateX(0); } /* Desplazamiento inicial del texto */
+  to { transform: translateX(100%); } /* Desplazamiento final del texto (de izquierda a derecha) */ 
+}
